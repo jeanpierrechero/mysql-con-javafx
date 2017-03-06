@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="360.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="basededatos.FXMLDocumentController">
+   <children>
+      <Label layoutX="15.0" layoutY="73.0" prefHeight="29.0" prefWidth="92.0" text="NOMBRE" />
+      <Label layoutX="14.0" layoutY="111.0" prefHeight="29.0" prefWidth="92.0" text="APELLIDO" />
+      <TextField fx:id="tfl_nombre" layoutX="94.0" layoutY="75.0" />
+      <TextField fx:id="tfl_apellido" layoutX="94.0" layoutY="113.0" />
+      <Button layoutX="75.0" layoutY="262.0" mnemonicParsing="false" onAction="#metodoGrabar" text="grabar" />
+      <Button layoutX="253.0" layoutY="262.0" mnemonicParsing="false" onAction="#metodoNuevo" text="Nuevo" />
+      <Button layoutX="316.0" layoutY="23.0" mnemonicParsing="false" onAction="#metodoBuscar" text="buscar" />
+      <Button layoutX="155.0" layoutY="262.0" mnemonicParsing="false" onAction="#metodoNuevo" text="Acualizar" />
+      <Label layoutX="14.0" layoutY="34.0" prefHeight="29.0" prefWidth="92.0" text="ID" />
+      <TextField fx:id="tfl_id" layoutX="38.0" layoutY="36.0" prefHeight="25.0" prefWidth="51.0" />
+      <Label fx:id="label1" layoutX="320.0" layoutY="172.0" prefHeight="47.0" prefWidth="64.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
